@@ -1,0 +1,81 @@
+@import "./../../public/scss/colors";
+.homeContainer {
+  background-color: #f8f8f8;
+  .filter {
+    color: $main-brand-color;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .header {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: $secondary-brand-color;
+
+  }
+  .home {
+
+    .course {
+      border-radius: 8px;
+      background-color: #ffffff;
+      height: auto;
+      //border: 1px solid $main-brand-color;
+      img {
+        height: 150px;
+        border-radius: 8px 8px 0 0;
+      }
+      .content {
+        padding: 10px 10px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: flex-end;
+
+        .title {
+          font-size: 20px;
+          font-weight: 700;
+        }
+        .author {
+          //font-style: italic;
+          color: #9f9e9e;
+          font-size: 14px;
+        }
+        .date {
+        }
+        .rating {
+          display: flex;
+          //border: 1px solid black;
+          align-items: center;
+          gap: 5px;
+          .ratingNum {
+            color: $main-brand-color;
+            font-weight: bold;
+          }
+        }
+        .price {
+          font-weight: 700;
+        }
+        .learnMore {
+          text-align: end;
+          font-weight: bold;
+          color: $main-brand-color;
+          border: 1px solid $main-brand-color;
+          width: 100px;
+          display: flex;
+          justify-content: center;
+          align-self: end;
+          height: 40px;
+          align-items: center;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: 0.2s ease-in-out;
+        }
+        .learnMore:hover {
+          background-color: $main-brand-color;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+

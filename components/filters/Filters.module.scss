@@ -1,0 +1,35 @@
+@import "./../../public/scss/colors";
+
+.filtersContainer {
+  .filter {
+    color: $main-brand-color;
+    font-weight: 600;
+    cursor: pointer;
+    width: fit-content;
+  }
+  .filters {
+    //border: 1px solid $main-brand-color;
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 0 20px 0;
+    border-radius:6px;
+
+    .price {
+      //border: 1px solid red;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      input {
+        border: 1px solid $main-brand-color;
+        width: 70px;
+        height: 40px;
+        border-radius: 6px;
+        outline: none;
+        padding: 5px;
+      }
+    }
+  }
+}
+

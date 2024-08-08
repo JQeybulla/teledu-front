@@ -1,0 +1,19 @@
+@import "./../../public/scss/colors";
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: $main-brand-color;
+  color: #fff;
+  padding: 8px;
+  font-weight: 600;
+
+  p {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  p:hover {
+    //color: $secondary-brand-color;
+  }
+}
+
