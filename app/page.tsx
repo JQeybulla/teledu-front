@@ -1,10 +1,5 @@
-import Image from "next/image";
-import HomeComponent from "@/components/home/Home.component";
+import {redirect} from "next/navigation";
 
 export default function Home() {
-  return (
-    <div>
-      <HomeComponent />
-    </div>
-  );
+  redirect('/courses')
 }

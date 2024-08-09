@@ -8,6 +8,7 @@ export default function PaginationComponent() {
       <div className={styles.item}>3</div>
       <div className={styles.item}>4</div>
       <div className={styles.item}>5</div>
+      <div style={{color: '#68c2e8'}}>-></div>
     </div>
   )
 }

@@ -56,20 +56,24 @@
         .price {
           font-weight: 700;
         }
-        .learnMore {
-          text-align: end;
-          font-weight: bold;
-          color: $main-brand-color;
-          border: 1px solid $main-brand-color;
-          width: 100px;
+        a {
           display: flex;
-          justify-content: center;
-          align-self: end;
-          height: 40px;
-          align-items: center;
-          border-radius: 4px;
-          cursor: pointer;
-          transition: 0.2s ease-in-out;
+          justify-content: flex-end;
+          .learnMore {
+            text-align: end;
+            font-weight: bold;
+            color: $main-brand-color;
+            border: 1px solid $main-brand-color;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-self: end;
+            height: 40px;
+            align-items: center;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.2s ease-in-out;
+          }
         }
         .learnMore:hover {
           background-color: $main-brand-color;
