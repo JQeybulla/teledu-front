@@ -1,6 +1,7 @@
-import {useParams} from "next/navigation";
-
-export default function Page({params}) {
+interface Params {
+  slug: string
+}
+export default function Page({params}:{params: Params}) {
   return (
     <h1>{params.slug}</h1>
   )
