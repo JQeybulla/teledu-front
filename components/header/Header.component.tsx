@@ -18,7 +18,7 @@ export default function HeaderComponent() {
         <p className={styles.nav}>Courses</p>
         <p className={styles.nav}>Teachers</p>
         <p className={styles.nav}>Blog</p>
-        <button className={`${styles.contactButton} p-2`}>Müəllim hesabı -></button>
+        <button className={`${styles.contactButton} p-2`}>{`Müəllim hesabı ->`}</button>
       </div>
     </div>
   )

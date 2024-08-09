@@ -1,19 +1,24 @@
 import styles from './Home.module.scss';
 import Image from "next/image";
 import courseImage from './../../public/images/course.jpg';
+import courseImage2 from './../../public/images/course2.jpg';
+import courseImage3 from './../../public/images/course3.jpg';
+import courseImage4 from './../../public/images/course4.jpg';
+import courseImage5 from './../../public/images/course5.jpg';
+import courseImage6 from './../../public/images/course6.jpg';
 import {Rate} from "antd";
 import FiltersComponent from "@/components/filters/Filters.component";
 import {FilterFilled} from "@ant-design/icons";
 
 const courses = [
   {id: 1, name: 'Frontend təlimi', image: courseImage},
-  {id: 2, name: 'Backend təlimi', image: courseImage},
-  {id: 3, name: 'UI/UX təlimi', image: courseImage},
-  {id: 4, name: 'Mobil proqramlaşdırma', image: courseImage},
-  {id: 5, name: 'Frontend təlimi', image: courseImage},
-  {id: 6, name: 'Backend təlimi', image: courseImage},
+  {id: 2, name: 'Backend təlimi', image: courseImage2},
+  {id: 3, name: 'UI/UX təlimi', image: courseImage3},
+  {id: 4, name: 'Mobil proqramlaşdırma', image: courseImage4},
+  {id: 5, name: 'Frontend təlimi', image: courseImage5},
+  {id: 6, name: 'Backend təlimi', image: courseImage6},
   {id: 7, name: 'UI/UX təlimi', image: courseImage},
-  {id: 8, name: 'Mobil proqramlaşdırma', image: courseImage},
+  {id: 8, name: 'Mobil proqramlaşdırma', image: courseImage2},
 ]
 
 export default function HomeComponent() {

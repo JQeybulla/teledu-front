@@ -14,6 +14,7 @@
     align-items: flex-end;
     padding: 20px 0 20px 0;
     border-radius:6px;
+    gap: 20px;
 
     .price {
       //border: 1px solid red;
@@ -29,6 +30,20 @@
         outline: none;
         padding: 5px;
       }
+    }
+    .language {
+      //border: 1px solid black;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .sorting {
+      //border: 1px solid black;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
   }
 }
