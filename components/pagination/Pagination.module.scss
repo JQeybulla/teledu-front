@@ -1,0 +1,21 @@
+@import "./../../public/scss/colors";
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  .item {
+    border: 1px solid $main-brand-color;
+    color: $main-brand-color;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;justify-content: center;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .active {
+    background-color: $main-brand-color;
+    color: #ffffff;
+  }
+}
