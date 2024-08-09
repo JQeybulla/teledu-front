@@ -10,6 +10,7 @@ import {Pagination, Rate} from "antd";
 import FiltersComponent from "@/components/filters/Filters.component";
 import PaginationComponent from "@/components/pagination/Pagination.component";
 import Link from "next/link";
+import TeachersPopularComponent from "@/components/teachers-popular/TeachersPopular.component";
 
 const courses = [
   {id: 1, name: 'Frontend təlimi', image: courseImage, slug: 'frontend-telimi'},
@@ -48,7 +49,10 @@ export default function HomeComponent() {
           </div>
         ))}
       </div>
-      <PaginationComponent />
+      <br/>
+      <PaginationComponent /> <br/>
+      <TeachersPopularComponent />
+
     </div>
   )
 }
