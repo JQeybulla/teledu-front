@@ -1,8 +1,14 @@
+import ApplyComponent from "@/components/details/Apply.component";
+
 interface Params {
-  slug: string
+  name: string;
+  slug: string;
 }
-export default function Page({params}:{params: Params}) {
+export default function Page({ params }: { params: Params }) {
   return (
-    <h1>{params.slug}</h1>
-  )
+    <>
+      {/* <h1>{params.slug}</h1> */}
+      <ApplyComponent />
+    </>
+  );
 }
