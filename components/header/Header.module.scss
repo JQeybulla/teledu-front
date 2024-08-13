@@ -16,7 +16,7 @@
   .search {
     flex: 0.6;
     input {
-      border: 1px solid $main-brand-color;
+      border: 1px solid var(--main-brand-color);
       height: 40px;
       width: 100%;
       border-radius: 8px;
@@ -34,22 +34,21 @@
       transition: 0.2s ease-in-out;
     }
     .nav:hover {
-      color: $main-brand-color;
+      color: var(--main-brand-color);
     }
 
     .contactButton {
-      border: 2px solid $main-brand-color;
+      border: 2px solid var(--main-brand-color);
       border-radius: 8px;
       color: $secondary-brand-color;
       transition: 0.2s ease-in-out;
     }
     .contactButton:hover {
-      background-color: $main-brand-color;
+      background-color: var(--main-brand-color);
       color: #fff;
     }
   }
 }
 
 .header::after {
-
 }

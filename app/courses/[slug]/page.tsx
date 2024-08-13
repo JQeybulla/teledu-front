@@ -1,4 +1,5 @@
 import ApplyComponent from "@/components/details/Apply.component";
+import WhatWeOffer from "@/components/details/WhatWeOffer.component";
 
 interface Params {
   name: string;
@@ -9,6 +10,7 @@ export default function Page({ params }: { params: Params }) {
     <>
       {/* <h1>{params.slug}</h1> */}
       <ApplyComponent />
+      <WhatWeOffer />
     </>
   );
 }
