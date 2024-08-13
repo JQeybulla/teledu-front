@@ -19,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <HeaderComponent />
-      <CategoryComponent />
-      {children}
+        <HeaderComponent />
+        <CategoryComponent />
+        {children}
       </body>
     </html>
   );

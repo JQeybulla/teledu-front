@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Apply.module.scss";
 import course from "../../public/images/course3.jpg";
 import Image from "next/image";
+import { Button } from "@nextui-org/button";
 import { Rate } from "antd";
 
 const ApplyComponent = () => {
@@ -18,6 +19,7 @@ const ApplyComponent = () => {
           <p>4.7</p>
           <Rate disabled allowHalf defaultValue={4.7} />
         </div>
+        <Button className={styles.button}>Enroll now</Button>
       </div>
     </div>
   );

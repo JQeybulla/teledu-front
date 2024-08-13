@@ -2,7 +2,7 @@
 .homeContainer {
   background-color: #f8f8f8;
   .filter {
-    color: $main-brand-color;
+    color: var(--main-brand-color);
     font-weight: 600;
     cursor: pointer;
   }
@@ -11,16 +11,14 @@
     font-size: 26px;
     font-weight: bold;
     color: $secondary-brand-color;
-
   }
   .home {
-
     .course {
       border-radius: 8px;
       background-color: #ffffff;
       height: auto;
       max-width: 300px;
-      //border: 1px solid $main-brand-color;
+      //border: 1px solid var(--main-brand-color);
       img {
         height: 170px;
         border-radius: 8px 8px 0 0;
@@ -49,7 +47,7 @@
           align-items: center;
           gap: 5px;
           .ratingNum {
-            color: $main-brand-color;
+            color: var(--main-brand-color);
             font-weight: bold;
           }
         }
@@ -62,8 +60,8 @@
           .learnMore {
             text-align: end;
             font-weight: bold;
-            color: $main-brand-color;
-            border: 1px solid $main-brand-color;
+            color: var(--main-brand-color);
+            border: 1px solid var(--main-brand-color);
             width: 100px;
             display: flex;
             justify-content: center;
@@ -76,11 +74,10 @@
           }
         }
         .learnMore:hover {
-          background-color: $main-brand-color;
+          background-color: var(--main-brand-color);
           color: #ffffff;
         }
       }
     }
   }
 }
-

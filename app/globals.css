@@ -7,8 +7,12 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  /*--background-start-rgb: 214, 219, 220;*/
-  /*--background-end-rgb: 255, 255, 255;*/
+  --onbackground-variant1: #f5f5f5;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --onbackground-variant1: #f0f0f0;
+  --main-brand-color: #68c2e8;
+  --secondary-brand-color: #0e1e40;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +20,9 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --onbackground-variant1: #1c1c1d;
+    --main-brand-color: #2b97d1;
+    --secondary-brand-color: #0e1e40;
   }
 }
 

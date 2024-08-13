@@ -2,7 +2,7 @@
 
 .application {
   width: 100%;
-  background-color: $secondary-brand-color;
+  background-color: var(--onbackground-variant1) !important;
   padding: 40px 160px;
   display: flex;
   flex-direction: row;
@@ -38,6 +38,13 @@
         color: #ffcc00;
         margin-right: 5px;
       }
+    }
+
+    & .button {
+      background-color: var(--main-brand-color);
+      padding: 10px 20px;
+      width: fit-content;
+      border-radius: 10px;
     }
   }
 }
